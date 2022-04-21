@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+   <i><H1>🛒 MiListApp</H1></i>
+</header>
+    <section id="pantallaVacía" class="container flexcenter"> 
+        <div class="txt">
+        <i><h2>Aún no agregaste nada</h2></i> 
+        <i><h2>a tu lista.</h2></i>
+
+        </div>
+<div class="caratriste">
+        <img src="img/android-chrome-192x192.png" alt="">
+
+    </div>
+     
+            
+    </section>
+            <section id="pantallaFormulario" class="container flexcenter">
+                <div class="formu">
+                            <h3 class="centrado">Ingresá un producto</h3>
+                            <div class="mb-3">
+                                <form action="#" id="prodForm" required novalidate>
+                                <input submit type="text" class="form-control" id="titulo" placeholder="Producto" required>
+                            </div>
+                            <select class="form-select" id="tipo" required novalidate>
+                                <option selected>Tipo de producto</option>
+                                <option value="🍼 Lacteos">🍼 Lacteos</option>
+                                <option value="🍺 Bebidas">🍺 Bebidas</option>
+                                <option value="🍉 Frutas">🍉 Frutas</option>
+                                <option value="🥕 Verduras">🥕 Verduras</option>
+                                <option value="🍖 Carnes">🍖 Carnes</option>
+                                <option value="💻 Tecnologia">💻 Tecnologia</option>
+                                <option value="🧹 Limpieza">🧹 Limpieza</option>
+                            </select>
+            
+        
+                            <div class="mb-3">
+                                <br>
+                                <textarea class="form-control" id="desc" rows="3" placeholder="Descripción del producto" required novalidated></textarea>
+                            </div>
+                        <button  type="submit" class="btn btn-secondary " id="agregar">Agregar</button>
+                    </form>
+            </div>
+    </section>
+    <section id="pantallaListado" class="container">
+
+    
+
+
+    </section>
+    <section id="pantallaDetalle" class="container"></section>
+
+    <button type="submit" class="fab" id="fab"><span>✚</span></button>
+    
+
+
+
+<script src="./Js/Main.js"></script>    
+    
+</body>
+</html>
